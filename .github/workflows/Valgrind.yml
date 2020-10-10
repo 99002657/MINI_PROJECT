@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: change mode
-      run:  cd LINUX_PROJECT && release.sh
+      run:  cd LINUX_PROJECT && chmod a+x release.sh
     - name: shell testing
       run:  cd LINUX_PROJECT && ./release.sh
     
