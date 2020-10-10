@@ -21,6 +21,6 @@ jobs:
     - name: cmake
       run:  LINUX_PROJECT/theater_simulation/CMakeLists.txt 
     - name: make
-      run: make theater_simulation
+      run: make LINUX_PROJECT/theater_simulation
     - name: Valgrind
       run: valgrind ./theater_simulation
