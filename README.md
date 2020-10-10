@@ -1,0 +1,2 @@
+# MINI_PROJECT_LINUX
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8b5de131faa3443a8a5f9f48d7d433dd)](https://app.codacy.com/gh/99002657/MINI_PROJECT_LINUX?utm_source=github.com&utm_medium=referral&utm_content=99002657/MINI_PROJECT_LINUX&utm_campaign=Badge_Grade)
