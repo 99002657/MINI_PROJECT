@@ -19,7 +19,7 @@ jobs:
       run: sudo apt-get install libgtest-dev && cd /usr/src/gtest && sudo cmake CMakeLists.txt && sudo make && sudo cp *.a /usr/lib && sudo ln -s /usr/lib/libgtest.a /usr/local/lib/libgtest.a && sudo ln -s /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
     - uses: actions/checkout@v1
     - name: access 
-      run: cd LINUX_PROJECT && cd cd theater_simulation && chmod a+x CMakeLists.txt
+      run: cd LINUX_PROJECT && cd theater_simulation && chmod a+x CMakeLists.txt
     - name: cmake
       run:  LINUX_PROJECT/theater_simulation/CMakeLists.txt 
     - name: make
