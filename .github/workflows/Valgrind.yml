@@ -21,8 +21,8 @@ jobs:
     - name: access 
       run: cd LINUX_PROJECT && cd theater_simulation && chmod a+x CMakeLists.txt
     - name: cmake
-      run:  LINUX_PROJECT/theater_simulation/CMakeLists.txt 
+      run:  cd LINUX_PROJECT && cd theater_simulation && cmake . 
     - name: make
-      run: make LINUX_PROJECT/theater_simulation
+      run: make -C LINUX_PROJECT/theater_simulation/
     - name: Valgrind
-      run: valgrind ./theater_simulation
+      run: cd LINUX_PROJECT && cd theater_simulation && valgrind ./theater_simulation
