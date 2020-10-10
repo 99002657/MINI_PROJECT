@@ -1,3 +1,0 @@
-/home/user/Downloads/LINUX MINI PROJECT/theater_simulation-master/theater_simulation/CMakeFiles/rebuild_cache.dir
-/home/user/Downloads/LINUX MINI PROJECT/theater_simulation-master/theater_simulation/CMakeFiles/edit_cache.dir
-/home/user/Downloads/LINUX MINI PROJECT/theater_simulation-master/theater_simulation/CMakeFiles/theater_simulation.dir
