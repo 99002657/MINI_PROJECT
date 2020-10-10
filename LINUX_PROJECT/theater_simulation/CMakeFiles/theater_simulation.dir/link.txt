@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/theater_simulation.dir/main.cc.o CMakeFiles/theater_simulation.dir/theater.cc.o  -o theater_simulation  -pthread 
